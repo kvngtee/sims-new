@@ -6,6 +6,7 @@ public class Blog {
     private String desc;
     private String date;
 
+
     public Blog(String image, String title, String desc, String date) {
         this.image = image;
         this.title = title;
