@@ -1,10 +1,11 @@
-package com.example.ecampus;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.ecampus.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ecampus.R;
 
 public class AdminChatActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class AdminChatActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(AdminChatActivity.this, HomescreenActivity.class);
+        Intent intent = new Intent(this, HomescreenActivity.class);
         startActivity(intent);
 
     }

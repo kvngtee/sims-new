@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.ecampus">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,17 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileActivity"></activity>
-        <activity android:name=".WebsiteActivity" />
-        <activity android:name=".CalculatorActivity" />
-        <activity android:name=".StaffrecordActivity" />
-        <activity android:name=".TimetableActivity" />
-        <activity android:name=".NoticeActivity" />
-        <activity android:name=".ForumActivity" />
-        <activity android:name=".NewsfeedActivity" />
-        <activity android:name=".AdminChatActivity" />
+        <activity android:name=".activities.ProfileActivity"></activity>
+        <activity android:name=".activities.WebsiteActivity" />
+        <activity android:name=".activities.CalculatorActivity" />
+        <activity android:name=".activities.StaffrecordActivity" />
+        <activity android:name=".activities.TimetableActivity" />
+        <activity android:name=".activities.NoticeActivity" />
+        <activity android:name=".activities.ForumActivity" />
+        <activity android:name=".activities.NewsfeedActivity" />
+        <activity android:name=".activities.AdminChatActivity" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -35,12 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PostDetailActivity" />
-        <activity android:name=".HomescreenActivity" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".ForgotpasswordActivity" />
+        <activity android:name=".activities.PostDetailActivity" />
+        <activity android:name=".activities.HomescreenActivity" />
+        <activity android:name=".activities.WelcomeActivity" />
+        <activity android:name=".activities.ForgotpasswordActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:windowSoftInputMode="stateHidden" />
 
         <meta-data

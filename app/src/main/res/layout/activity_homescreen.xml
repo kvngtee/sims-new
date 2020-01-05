@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#252525"
     android:fitsSystemWindows="false"
-    tools:context=".HomescreenActivity">
+    tools:context=".activities.HomescreenActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/homescreentb"

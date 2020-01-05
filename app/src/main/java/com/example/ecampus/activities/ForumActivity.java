@@ -1,8 +1,10 @@
-package com.example.ecampus;
+package com.example.ecampus.activities;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.ecampus.R;
 
 public class ForumActivity extends AppCompatActivity {
 

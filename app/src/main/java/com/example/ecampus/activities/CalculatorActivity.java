@@ -1,9 +1,11 @@
-package com.example.ecampus;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.ecampus.activities;
 
 import android.os.Bundle;
 import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ecampus.R;
 
 public class CalculatorActivity extends AppCompatActivity {
 

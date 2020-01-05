@@ -1,9 +1,10 @@
-package com.example.ecampus;
+package com.example.ecampus.activities;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.view.WindowManager;
+import com.example.ecampus.R;
 
 public class ProfileActivity extends AppCompatActivity {
 
